@@ -1,0 +1,60 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+     margin-top: 250px;
+     
+    
+}
+
+.container1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.container2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+body {
+		background-image: url("./cauldron.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	}
+
+	a {
+		color: yellow;
+		font-size: 30px
+
+		}
+
+		a:link {
+    text-decoration: none;
+}
+	img {
+	width: 250px;
+	height: 250px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+h1{
+	color: Red;
+	text-align: center;
+	margin-top: 0px
+}
+
+
+}
